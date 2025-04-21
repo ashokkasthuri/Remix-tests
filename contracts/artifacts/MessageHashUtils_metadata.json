@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Signature message hash utilities for producing digests to be consumed by {ECDSA} recovery or signing. The library provides methods for generating a hash of a message that conforms to the https://eips.ethereum.org/EIPS/eip-191[ERC-191] and https://eips.ethereum.org/EIPS/eip-712[EIP 712] specifications.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MessageHashUtils.sol": "MessageHashUtils"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Math.sol": {
+			"keccak256": "0xc462846274d7aeb0faf24669e8308a6c3d4f59c0bd8e9eda2aa5556bc1e051d0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd3555890c413e60819dfa1a8eae5ad9a91ee6324eb06a0b1864724132d41f6d",
+				"dweb:/ipfs/QmTf92oNWcv77SmzwhHjWR25mVAmURkNxnMcho1F6NFw35"
+			]
+		},
+		"contracts/MessageHashUtils.sol": {
+			"keccak256": "0x8f285fdf7d54a65521a41ce2301f9be9727a5fe12e92e6c531255fb552f49450",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3ba231f35f2eff8d87c6a2a30a085844f9b94a4b568ad74777dc2a33d2849ba",
+				"dweb:/ipfs/QmPs1ur6k3pkcHpbwh3aTR4tJsHctcY2Goze5VspFuRZfv"
+			]
+		},
+		"contracts/Panic.sol": {
+			"keccak256": "0xec0c46048fd01751aa22ecddb66df20b702374fd68f3f4b3ae363782f6b31f9f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d32d9af31bc44235f769cf820ec96fd3f0aea9e16a169b244a62e34e482d7d55",
+				"dweb:/ipfs/Qmd4Lw5sSLQtfE2vEy29RHzffinDsHgN1pGaS8Eex1F8ks"
+			]
+		},
+		"contracts/SafeCast.sol": {
+			"keccak256": "0x16949b29739a3a20cf5ffe9ca22830a9f9b6deff16ee925827b19ddb5fbc127a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://768190c98439f96d5cad1900cc96e24f0749172192be8b5de885c426750c6ecd",
+				"dweb:/ipfs/QmWPmxri7eCbAXC7p3qJ14ckPTUDkdE3wuyiMoc1pat5ft"
+			]
+		},
+		"contracts/SignedMath.sol": {
+			"keccak256": "0xc07e2a3d5f315dafaec45606b60414be49cc913bd11ea1b1d8ee460e72f37445",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d5f6ea2b532028ac1b221ce2e33bfbf71d2ef43b318db47c029ea7b1760d4df",
+				"dweb:/ipfs/QmdxY44UJdhcgVZ7YCm6um4FKBU1PvL925KgefxD7onTRw"
+			]
+		},
+		"contracts/Strings.sol": {
+			"keccak256": "0x167c6f6f9fdd5a95b0ee7b27b16c3188e51404f752904a0f95875b7c55e4b26b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc33e1ef2d3f75be5c9174cd713957ecef9ae09522fa0e5e901da71fefbf170b",
+				"dweb:/ipfs/QmU96TwSsJ3d67CJTCBPG8xkNWtfMjpQLjgMLfebz1nYN6"
+			]
+		}
+	},
+	"version": 1
+}
